@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f3eb">
+    <meta name="description" content="Kjøleskapsmagneter inspirert av Moss og stedene rundt. Finn en liten påminnelse om steder du er glad i.">
+    <title>mossimellom – Magneter fra Moss og omegn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="announcement">Magneter med motiver fra Moss og omegn · Små minner, rett på kjøleskapet</div>
+    <header class="header">
+      <a class="wordmark" href="#" aria-label="mossimellom – forside">mossi<span>mellom</span></a>
+      <nav class="nav" aria-label="Hovedmeny">
+        <a href="#fridge-magnets">Kjøleskapsmagneter</a>
+        <a href="#about-us">Om oss</a>
+        <a href="#blog">Blogg</a>
+      </nav>
+      <div class="header-note">Lokale motiver · Moss og omegn</div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Små minner fra Moss og omegn</p>
+          <h1 id="hero-title">Ta med deg <em>Moss</em> hjem.</h1>
+          <p>Magneter med motiver fra Moss, Son, Rygge og nabobyene. Små påminnelser om steder du er glad i.</p>
+          <a class="button" href="#fridge-magnets">Se magnetene <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-visual" role="img" aria-label="Et rolig nordisk landskap med illustrerte kjøleskapsmagneter">
+          <div class="hero-sticker">En hilsen<br>fra Moss <span aria-hidden="true">✳</span></div>
+          <div class="magnet-stack" aria-hidden="true">
+            <div class="magnet"><span>MOSS<br>VED SJØEN</span></div>
+            <div class="magnet"><span>HILSEN<br>FRA<br>SON</span></div>
+            <div class="magnet"><span>RYGGE<br>BLANT<br>ÅKERNE</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="town-strip" aria-label="Utvalgte steder">
+        <span>Moss</span><span>Son</span><span>Rygge</span><span>Horten</span><span>Fredrikstad</span>
+      </div>
+
+      <section class="section" id="fridge-magnets">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Motiver fra nærområdet</p>
+            <h2>Et lite stykke hjemme.</h2>
+          </div>
+          <div class="collection-copy">
+            <p>Kyst, småbyliv og velkjente gater – finn en magnet fra et sted du er glad i.</p>
+            <p class="collection-status" id="collection-status" aria-live="polite"></p>
+            <button class="collection-reset" id="collection-reset" type="button" hidden>Vis alle magneter</button>
+          </div>
+        </div>
+        <div class="product-grid" id="product-grid" role="region" aria-label="Kolleksjon med kjøleskapsmagneter" tabindex="0">
+          <article class="product-card" data-location="Moss">
+            <a href="#newsletter" aria-label="Se kjøleskapsmagneten Moss ved sjøen">
+              <div class="product-art"><span class="tag">Bestselger</span><div class="magnet"><span>MOSS<br>VED SJØEN</span></div></div>
+              <div class="product-info"><div><h3>Moss ved sjøen</h3><p>Havnebyen vår</p></div><span class="price">99 kr</span></div>
+            </a>
+          </article>
+          <article class="product-card" data-location="Son">
+            <a href="#newsletter" aria-label="Se kjøleskapsmagneten Sommer i Son">
+              <div class="product-art"><span class="tag">Lokal favoritt</span><div class="magnet"><span>SON<br>SOMMER<br>DAGER</span></div></div>
+              <div class="product-info"><div><h3>Sommer i Son</h3><p>Sommer ved brygga</p></div><span class="price">99 kr</span></div>
+            </a>
+          </article>
+          <article class="product-card" data-location="Horten">
+            <a href="#newsletter" aria-label="Se kjøleskapsmagneten Horten ved fjorden">
+              <div class="product-art"><div class="magnet"><span>HORTEN<br>VED<br>FJORDEN</span></div></div>
+              <div class="product-info"><div><h3>Horten ved fjorden</h3><p>Utsikt mot fjorden</p></div><span class="price">99 kr</span></div>
+            </a>
+          </article>
+          <article class="product-card" data-location="Fredrikstad">
+            <a href="#newsletter" aria-label="Se kjøleskapsmagneten Gamlebyen i Fredrikstad">
+              <div class="product-art"><span class="tag">Nyhet</span><div class="magnet"><span>GAMLEBYEN<br>FREDRIKSTAD</span></div></div>
+              <div class="product-info"><div><h3>Gamlebyen</h3><p>Gamlebyen i miniformat</p></div><span class="price">99 kr</span></div>
+            </a>
+          </article>
+          <article class="product-card" data-location="Rygge">
+            <a href="#newsletter" aria-label="Se kjøleskapsmagneten Rygge blant åkrene">
+              <div class="product-art"><div class="magnet"><span>RYGGE<br>BLANT<br>ÅKERNE</span></div></div>
+              <div class="product-info"><div><h3>Rygge blant åkrene</h3><p>Rett fra bygda</p></div><span class="price">99 kr</span></div>
+            </a>
+          </article>
+        </div>
+        <p class="carousel-hint" id="carousel-hint" aria-hidden="true" hidden>Sveip eller bla for å se alle magnetene <span aria-hidden="true">→</span></p>
+      </section>
+
+      <section class="section destinations" id="locations">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Moss og stedene rundt</p>
+            <h2>Hvert sted har sin sjarm.</h2>
+          </div>
+          <p>Bli kjent med stedene bak motivene, og finn en magnet som minner deg om dem.</p>
+        </div>
+        <div class="location-grid">
+          <article class="location-card">
+            <div class="location-image location-moss" role="img" aria-label="Illustrert kystmotiv fra Moss"></div>
+            <div class="location-content">
+              <p class="eyebrow">Havnebyen ved fjorden</p>
+              <h3>Moss</h3>
+              <p>Ferga, havna og livet langs fjorden – Moss er full av små øyeblikk det er verdt å ta vare på.</p>
+              <a class="button" href="#fridge-magnets" data-location-filter="Moss">Se magneter fra Moss <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="location-card">
+            <div class="location-image location-son" role="img" aria-label="Illustrert kystmotiv fra Son"></div>
+            <div class="location-content">
+              <p class="eyebrow">Sommer ved sjøen</p>
+              <h3>Son</h3>
+              <p>Småbåthavna, de gamle trehusene og late sommerdager – Son er fin å ta med seg hjem.</p>
+              <a class="button" href="#fridge-magnets" data-location-filter="Son">Se magneter fra Son <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="location-card">
+            <div class="location-image location-rygge" role="img" aria-label="Illustrert landskapsmotiv fra Rygge"></div>
+            <div class="location-content">
+              <p class="eyebrow">Landlig ro rett utenfor Moss</p>
+              <h3>Rygge</h3>
+              <p>Åkre, gårdsbutikker og åpne landskap – Rygge har sin helt egen ro, bare en kort tur fra Moss.</p>
+              <a class="button" href="#fridge-magnets" data-location-filter="Rygge">Se magneter fra Rygge <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="location-card">
+            <div class="location-image location-horten" role="img" aria-label="Illustrert fjordmotiv fra Horten"></div>
+            <div class="location-content">
+              <p class="eyebrow">Horten ved Oslofjorden</p>
+              <h3>Horten</h3>
+              <p>Fra brygga og fjordutsikten til Karljohansvern – i Horten er det mye å oppdage, både til lands og til vanns.</p>
+              <a class="button" href="#fridge-magnets" data-location-filter="Horten">Se magneter fra Horten <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+          <article class="location-card">
+            <div class="location-image location-fredrikstad" role="img" aria-label="Illustrert motiv fra Gamlebyen i Fredrikstad"></div>
+            <div class="location-content">
+              <p class="eyebrow">Gamlebyen ved Glomma</p>
+              <h3>Fredrikstad</h3>
+              <p>Brosteinsgater, voller og liv langs elva – Gamlebyen er full av historie og små detaljer.</p>
+              <a class="button" href="#fridge-magnets" data-location-filter="Fredrikstad">Se magneter fra Fredrikstad <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="about-us">
+        <div class="story-image" role="img" aria-label="Rolig kystlandskap ved Oslofjorden"></div>
+        <div class="story-copy">
+          <p class="eyebrow">En hilsen fra oss i mossimellom</p>
+          <h2>Små magneter. Store minner.</h2>
+          <p>Vi lager illustrerte magneter med motiver fra Moss og stedene rundt. Inspirasjonen finner vi på brygga, i gatene og i landskapet – i de små detaljene som gjør hvert sted spesielt. En enkel måte å ta med seg et kjært sted hjem på.</p>
+          <a class="text-link" href="#blog">Les mer om oss&nbsp; ↗</a>
+        </div>
+      </section>
+
+      <section class="section journal" id="blog">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Historier og tips fra nærområdet</p>
+            <h2>Se Moss og omegn med nye øyne.</h2>
+          </div>
+          <p>Bli med på små utflukter, finn nye favorittsteder og se hvordan motivene blir til.</p>
+        </div>
+        <div class="journal-grid">
+          <a class="journal-card" href="#newsletter">
+            <div class="journal-image" role="img" aria-label="Blomster i en norsk hage"></div>
+            <p class="eyebrow">Moss, Norge</p>
+            <h3>En rusletur langs sjøen i Moss</h3>
+            <p>Ta den rolige veien langs havna, og finn et nytt favorittsted underveis.</p>
+          </a>
+          <a class="journal-card" href="#newsletter">
+            <div class="journal-image" role="img" aria-label="En grønn landevei gjennom landskapet"></div>
+            <p class="eyebrow">Rundt fjorden</p>
+            <h3>En sommerdag i Son</h3>
+            <p>Småbåthavna, trehusene og kanskje en is i sola – Son er vel verdt turen.</p>
+          </a>
+          <a class="journal-card" href="#newsletter">
+            <div class="journal-image" role="img" aria-label="Et stille fjell- og innsjølandskap"></div>
+            <p class="eyebrow">Bak motivene</p>
+            <h3>Fra skisse til kjøleskapsmagnet</h3>
+            <p>Slik blir kjente steder og små detaljer til illustrerte minner.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter">
+        <p class="eyebrow">Nytt fra mossimellom</p>
+        <h2>Små nyheter, rett i innboksen.</h2>
+        <p>Få beskjed når nye magneter kommer, og tips til steder å utforske rundt Moss.</p>
+        <form class="signup">
+          <input type="email" placeholder="E-postadressen din" aria-label="E-postadressen din" required>
+          <button type="submit">MELD MEG PÅ&nbsp; →</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="wordmark" href="#" aria-label="mossimellom – forside">mossi<span>mellom</span></a>
+      <span>Magneter med motiver fra Moss og omegn.</span>
+      <span class="footer-note">© 2026 mossimellom · Moss, Norge</span>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+        <script src="script.js"></script>
+  </body>
+</html>

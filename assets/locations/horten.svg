@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#aecbc8"/>
+      <stop offset="1" stop-color="#efe0bd"/>
+    </linearGradient>
+    <linearGradient id="fjord" x2="0" y2="1">
+      <stop stop-color="#58857d"/>
+      <stop offset="1" stop-color="#284e4e"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v304H0z"/>
+  <circle cx="187" cy="91" r="42" fill="#ebaf68"/>
+  <path fill="#849d91" d="M0 238q116-72 224-17 109-77 220-5 97-74 183-11 84-58 173-7v116H0z"/>
+  <path fill="#d0ba8e" d="M0 296h800v30H0z"/>
+  <path fill="url(#fjord)" d="M0 316h800v184H0z"/>
+  <path fill="#e9e1cf" d="M591 168h80v150h-80z"/>
+  <path fill="#c77955" d="M579 176h104l-18-22h-67z"/>
+  <path fill="#d98b60" d="M614 118h34v51h-34z"/>
+  <path fill="#f3e8d2" d="M610 115h42l-7-12h-28z"/>
+  <path fill="#f0d7a4" opacity=".75" d="m630 111 149-56v89l-149-31z"/>
+  <path fill="#3f645b" d="M618 202h26v29h-26z"/>
+  <path fill="#d6c69e" d="M0 323h107l38 33-27 31H0z"/>
+  <path fill="#bd7652" d="M0 385h167v16H0z"/>
+  <path fill="#e8ddc4" d="M227 304h351v42H227z"/>
+  <path fill="#d07855" d="M244 341q175 22 357 0l-37 47q-151 29-292-4z"/>
+  <path fill="#f4ead4" d="M260 277h246v31H260z"/>
+  <path fill="#e8ddc4" d="M286 235h189v44H286z"/>
+  <path fill="#be7856" d="m274 239 107-65 105 65z"/>
+  <path fill="#486c62" d="M313 251h24v28h-24zm43 0h24v28h-24zm43 0h24v28h-24zm43 0h18v28h-18z"/>
+  <path fill="#f4ead4" d="M317 280h12v28h-12zm44 0h12v28h-12zm44 0h12v28h-12z"/>
+  <path fill="#e8ddc4" d="M477 271h75v37h-75z"/>
+  <path fill="#be7856" d="m470 273 42-35 48 35z"/>
+  <g fill="none" stroke="#a9cbbc" stroke-linecap="round" stroke-width="4">
+    <path d="M199 426q43-14 87 0t87 0 87 0 87 0"/>
+    <path d="M487 462q38-12 77 0t77 0 77 0"/>
+    <path d="M52 451q30-10 61 0t61 0"/>
+  </g>
+  <g fill="#315d58">
+    <path d="M720 311h7v-53h-7z"/>
+    <circle cx="724" cy="249" r="19"/>
+    <path d="M752 313h6v-36h-6z"/>
+    <circle cx="755" cy="269" r="14"/>
+  </g>
+</svg>

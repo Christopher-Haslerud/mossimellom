@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#c1d9d3"/>
+      <stop offset="1" stop-color="#f4dfb8"/>
+    </linearGradient>
+    <linearGradient id="water" x2="0" y2="1">
+      <stop stop-color="#6a9b91"/>
+      <stop offset="1" stop-color="#3b7169"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v302H0z"/>
+  <circle cx="160" cy="95" r="39" fill="#eab06b"/>
+  <path fill="#91aaa0" d="m0 220 104-64 75 37 80-70 91 65 85-46 105 53 73-49 90 60 97-40v151H0z"/>
+  <path fill="#d5c49e" d="M0 284q148-35 284-2t261 2 255-5v42H0z"/>
+  <path fill="url(#water)" d="M0 311h800v189H0z"/>
+  <path fill="#e9dfc8" d="M60 237h126v91H60z"/>
+  <path fill="#bd7759" d="m48 241 74-70 78 70z"/>
+  <path fill="#dca56d" d="M209 253h131v77H209z"/>
+  <path fill="#52766b" d="m196 255 78-59 80 59z"/>
+  <path fill="#f1e5c9" d="M361 229h119v99H361z"/>
+  <path fill="#bd7759" d="m349 232 70-65 73 65z"/>
+  <path fill="#567a70" d="M501 255h107v75H501z"/>
+  <path fill="#e1ae76" d="m488 257 66-54 70 54z"/>
+  <path fill="#f1e5c9" d="M626 244h115v87H626z"/>
+  <path fill="#bd7759" d="m613 246 69-63 73 63z"/>
+  <g fill="#41685e">
+    <path d="M83 260h18v23H83zm54 0h18v23h-18zm92 18h18v22h-18zm51 0h18v22h-18zm89-25h17v24h-17zm47 0h17v24h-17zm83 24h17v22h-17zm52 0h17v22h-17zm80-17h17v24h-17zm46 0h17v24h-17z"/>
+  </g>
+  <g fill="#f5e8ce">
+    <path d="M121 261h8v22h-8zm102 17h8v22h-8zm140-25h8v24h-8zm141 24h8v22h-8zm133-17h8v24h-8z"/>
+  </g>
+  <path fill="#d29b67" d="M0 323h800v13H0z"/>
+  <path fill="#d1ad76" d="M0 440q107-50 214 0t214 0 214 0 158 0v60H0z"/>
+  <path fill="#426d62" d="M0 457q107-38 214 0t214 0 214 0 158 0"/>
+  <g fill="none" stroke="#b6d2c3" stroke-linecap="round" stroke-width="4">
+    <path d="M17 367q33-10 66 0t66 0 66 0"/>
+    <path d="M395 389q34-10 68 0t68 0 68 0"/>
+    <path d="M585 355q28-8 56 0t56 0"/>
+  </g>
+  <path fill="#f3e5c9" d="M252 330h8V179h-8z"/>
+  <path fill="#f3e5c9" d="M260 184v79l63-24z"/>
+  <path fill="#d77d59" d="M248 328q42 20 85 1l-15 17q-38 13-65-2z"/>
+  <path fill="#315d58" d="M248 324q42 17 85 1l-4 9q-42 14-79-2z"/>
+</svg>

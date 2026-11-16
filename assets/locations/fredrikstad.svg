@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#bbd1c9"/>
+      <stop offset="1" stop-color="#f2d7ac"/>
+    </linearGradient>
+    <linearGradient id="river" x2="0" y2="1">
+      <stop stop-color="#668f84"/>
+      <stop offset="1" stop-color="#315d59"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v306H0z"/>
+  <circle cx="625" cy="84" r="39" fill="#e8a96a"/>
+  <path fill="#95aa98" d="M0 228q132-98 247-4 102-94 202-2 111-81 204-9 72-57 147-2v113H0z"/>
+  <path fill="#d8c49d" d="M0 290h800v40H0z"/>
+  <path fill="url(#river)" d="M0 330h800v170H0z"/>
+  <path fill="#9b795a" d="M55 298 170 268l95 30 55-22 60 28H55z"/>
+  <path fill="#b98559" d="M115 282 203 227l87 55v57H115z"/>
+  <path fill="#f1e4c9" d="M139 283v-67l64-45 66 45v67z"/>
+  <path fill="#bf7556" d="m125 220 78-64 82 64z"/>
+  <path fill="#4a6b60" d="M156 237h21v29h-21zm58 0h21v29h-21z"/>
+  <path fill="#d99a68" d="M315 293V217l69-48 73 48v76z"/>
+  <path fill="#f0e2c4" d="m302 223 82-64 86 64z"/>
+  <path fill="#46675c" d="M339 237h21v28h-21zm57 0h21v28h-21z"/>
+  <path fill="#eadfc5" d="M478 299v-70l64-45 68 45v70z"/>
+  <path fill="#bc7053" d="m464 236 77-67 81 67z"/>
+  <path fill="#46675c" d="M500 246h19v27h-19zm54 0h20v27h-20z"/>
+  <path fill="#c7aa7a" d="M0 313q121-27 240 7t228 0 197 0 135-5v22H0z"/>
+  <path fill="none" stroke="#efe2c5" stroke-linecap="round" stroke-width="13" d="M107 358q135-34 262 0t254 0 145-1"/>
+  <path fill="none" stroke="#bd7956" stroke-linecap="round" stroke-width="4" d="M108 350q135-34 262 0t254 0 145-1"/>
+  <path fill="#c9a46c" d="M0 416q112-36 233 6t242 0 205-1 120 18v61H0z"/>
+  <g fill="none" stroke="#a9cbbc" stroke-linecap="round" stroke-width="4">
+    <path d="M58 449q35-11 71 0t71 0"/>
+    <path d="M395 463q42-13 83 0t83 0 83 0"/>
+    <path d="M631 423q33-10 66 0t66 0"/>
+  </g>
+  <path fill="#3d6559" d="M663 326h90v16h-90z"/>
+  <g fill="#3d6559">
+    <path d="M677 326v-27h8v27zm31 0v-35h8v35zm28 0v-24h8v24z"/>
+    <circle cx="681" cy="294" r="12"/>
+    <circle cx="713" cy="282" r="15"/>
+    <circle cx="740" cy="298" r="11"/>
+  </g>
+</svg>

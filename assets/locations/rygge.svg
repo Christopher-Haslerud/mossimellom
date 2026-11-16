@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#c5d9ce"/>
+      <stop offset="1" stop-color="#f5e5bb"/>
+    </linearGradient>
+    <linearGradient id="field" x2="0" y2="1">
+      <stop stop-color="#c6a45f"/>
+      <stop offset="1" stop-color="#77875c"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v310H0z"/>
+  <circle cx="625" cy="98" r="43" fill="#e9ad67"/>
+  <path fill="#9caf91" d="M0 244q115-93 231-7 92-116 198-8 109-96 214-4 84-87 157-30v127H0z"/>
+  <path fill="#798e69" d="M0 295q134-62 273-2 147-77 280-1 135-57 247-14v108H0z"/>
+  <path fill="url(#field)" d="M0 342q174-60 347 0t453-8v166H0z"/>
+  <path fill="#d6b66e" d="M0 350q135-41 273 7t283-5 244-1v31q-146-2-279 29-141 32-287-17T0 386z"/>
+  <path fill="#879468" d="M0 417q175-42 343 16t457-20v87H0z"/>
+  <path fill="#e0c47e" d="M0 452q142-31 272 10t262 6 266-31v30q-133 19-257 40H0z"/>
+  <path fill="#a14f3d" d="M350 224h174v130H350z"/>
+  <path fill="#873f34" d="m331 235 105-87 108 87z"/>
+  <path fill="#e9dfc7" d="M363 252h36v102h-36zm97 3h47v43h-47z"/>
+  <path fill="#526e5d" d="M414 285h34v69h-34z"/>
+  <path fill="#e9dfc7" d="M422 294h18v26h-18z"/>
+  <path fill="#bf7954" d="M395 185h23v-38h-23z"/>
+  <path fill="#f1e6ce" d="M388 146h37l-7-11h-23z"/>
+  <path fill="#b97953" d="M542 283h86v72h-86z"/>
+  <path fill="#f1e6ce" d="m533 284 52-45 54 45z"/>
+  <path fill="#47685b" d="M555 303h20v26h-20zm42 0h18v26h-18z"/>
+  <path fill="#c1a05f" d="M0 478q168-49 337 0 158 46 463-23v45H0z"/>
+  <g fill="#3f6655">
+    <path d="M139 300h12v-67h-12z"/>
+    <circle cx="145" cy="222" r="29"/>
+    <path d="M183 315h10v-47h-10z"/>
+    <circle cx="188" cy="258" r="21"/>
+    <path d="M667 307h12v-75h-12z"/>
+    <circle cx="673" cy="222" r="31"/>
+    <path d="M709 315h10v-48h-10z"/>
+    <circle cx="714" cy="259" r="22"/>
+  </g>
+  <g fill="none" stroke="#e6d094" stroke-linecap="round" stroke-width="5" opacity=".8">
+    <path d="M25 400q90-27 182 7t183 12"/>
+    <path d="M475 415q115-33 237-14"/>
+    <path d="M55 465q80-23 157 6"/>
+  </g>
+</svg>
